@@ -283,13 +283,13 @@ In this case, the Unicode value 67 represents the character 'C', so the variable
 
 ### EXERCISE 5
 
-> 00/00/2000
-> Forsyth Barr Stadium
-> Black Caps
-> vs
-> Bangladesh
-> 0032021
-> 00/00/2000
+> 00/00/2000\
+> Forsyth Barr Stadium\
+> Black Caps\
+> vs\
+> Bangladesh\
+> 0032021\
+> 00/00/2000\
 > 00/3/2021
 
 **"\n" is shifting lines in JAVA, python, C++, etc.**
