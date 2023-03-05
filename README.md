@@ -181,84 +181,103 @@ public class PracticeExample2{
 
 ### EXERCISE 1
 
-In Java, there are three types of comments:
-
-**Single-line comment**
-
-Single-line comments start with two forward slashes (//) and are used to explain a single line of code. Anything that follows the double slashes will be ignored by the compiler. These comments are generally used to provide short explanations of what the code is doing.
-Example:
-```java
-// This is a single-line comment
-int x = 10; // This sets the value of x to 10
-```
-
-**Multi-line comments**
-
-Multi-line comments start with a forward slash followed by an asterisk (/) and end with an asterisk followed by a forward slash (/). These comments are used to explain a block of code or to temporarily disable a block of code. Anything between the opening and closing symbols will be ignored by the compiler.
-Example:
-```java
-/*
-This is a multi-line comment
-It can span multiple lines
-*/
-
-int x = 10; /* This sets the value of x to 10 */
-```
-
-**Javadoc comments**
-
-Javadoc comments start with a forward slash followed by two asterisks (/) and end with an asterisk followed by a forward slash (*/). These comments are used to generate documentation for classes, methods, and variables. Javadoc comments can include special tags like @param, @return, and @throws that are used by documentation generators to provide information about a program's API.
-Example:
-```java
-/**
-* This class represents a person
-* @author John Smith
-*/
-public class Person {
-  private String name;
-
-  /**
-  * Sets the person's name
-  * @param name The person's name
-  */
-  public void setName(String name) {
-    this.name = name;
-  }
-
-  /**
-  * Gets the person's name
-  * @return The person's name
-  */
-  public String getName() {
-    return name;
-  }
-}
-```
-
-The key difference between these three types of comments is their purpose. Single-line and multi-line comments are used for code documentation and to make code more readable for developers. Javadoc comments, on the other hand, are used to generate API documentation that can be easily read by developers who are using your code.
-
+> In Java, there are three types of comments:
+> 
+> **Single-line comment**
+> 
+> Single-line comments start with two forward slashes (//) and are used to explain a single line of code. Anything that follows the double slashes will be ignored by the compiler. These comments are generally used to provide short explanations of what the code is doing.
+> Example:
+> ```java
+> // This is a single-line comment
+> int x = 10; // This sets the value of x to 10
+> ```
+> 
+> **Multi-line comments**
+> 
+> Multi-line comments start with a forward slash followed by an asterisk (/) and end with an asterisk followed by a forward slash (/). These comments are used to explain a block of code or to temporarily disable a block of code. Anything between the opening and closing symbols will be ignored by the compiler.
+> Example:
+> ```java
+> /*
+> This is a multi-line comment
+> It can span multiple lines
+> */
+> 
+> int x = 10; /* This sets the value of x to 10 */
+> ```
+> 
+> **Javadoc comments**
+> 
+> Javadoc comments start with a forward slash followed by two asterisks (/) and end with an asterisk followed by a forward slash (*/). These comments are used to generate documentation for classes, methods, and variables. Javadoc comments can include special tags like @param, @return, and @throws that are used by documentation generators to provide information about a program's API.
+> Example:
+> ```java
+> /**
+> * This class represents a person
+> * @author John Smith
+> */
+> public class Person {
+>   private String name;
+> 
+>   /**
+>   * Sets the person's name
+>   * @param name The person's name
+>   */
+>   public void setName(String name) {
+>     this.name = name;
+>   }
+> 
+>   /**
+>   * Gets the person's name
+>   * @return The person's name
+>   */
+>   public String getName() {
+>     return name;
+>   }
+> }
+> ```
+> 
+> The key difference between these three types of comments is their purpose. Single-line and multi-line comments are used for code documentation and to make code more readable for developers. Javadoc comments, on the other hand, are used to generate API documentation that can be easily read by developers who are using your code.
+> 
 ### EXERCISE 2
 
-**1 - c**
-
-The value 78.9 is a floating-point literal, but the variable x is of type int, which can only hold integer values. The (int) before 78.9 is a type cast operator, which forces the compiler to convert the floating-point value to an integer value before assigning it to x.
+> **1 - c**
+> 
+> >  The value 78.9 is a floating-point literal, but the variable x is of type int, which can only hold integer values. The (int) before 78.9 is a type cast operator, which forces the compiler to convert the floating-point value to an integer value before assigning it to x.
 After the cast, the fractional part of the value is truncated, and x will be assigned the integer value 78.
-
-**2 - e,f **
-
-**3 - a **
-
-Comparing a and b, a declared a variable with the 'int' but b didnt.
-
-**4 -g **
-
-The value 67 is cast to the char data type using the "(char)" syntax. The char data type in Java represents a single character, such as a letter, digit, or symbol, and can be initialized with either a Unicode value or a character literal enclosed in single quotes.
+> 
+> **2 - e,f**
+> 
+> **3 - a**
+> 
+> >  Comparing a and b, a declared a variable with the 'int' but b didnt.
+> 
+> **4 -g**
+> 
+> > The value 67 is cast to the char data type using the "(char)" syntax. The char data type in Java represents a single character, such as a letter, digit, or symbol, and can be initialized with either a Unicode value or a character literal enclosed in single quotes.
 In this case, the Unicode value 67 represents the character 'C', so the variable "c" will be assigned the value 'C'.
+> 
+> **5 -d**
+> 
+> **6 -b** 
+> 
+> > no "string" before "name", so the variable "name" has already been declared
+> 
+> **7 - h**
 
-**5 -d **
+### EXERCISE 3
 
-**6 -b ** 
+> `main`. That’s a entry point and main logic of the program, it can _call_ other methods too if the programmer want it do that and there’s no bug.
+> 
+> `2 plus 2 is 22`
+> 
+> This is because it is using string concatenation. In Java, the + operator is used for both addition and string concatenation. When the + operator is used with two strings, it concatenates them to form a new string. When it is used with a string and a number, the number is first converted to a string and then concatenated with the original string.
+> 
+> In the given statement, the first string is "2 plus 2 is ". Then, the + operator is used with the number 2, which is first converted to a string "2", and concatenated to the previous string, producing "2 plus 2 is 2". Finally, the + operator is again used with the number 2, which is also converted to a string "2", and concatenated to the previous string, producing "2 plus 2 is 22". 
+> 
+> `40 is the new thirty`
+> 
+> This is because the statement is evaluated from left to right, following the order of operations. In this case, the addition operator + is used with two numbers 20 and 20, which results in the integer 40. Then, the + operator is used with the string " is the new thirty.", which is concatenated to the integer 40 to form the final string "40 is the new thirty.".
 
-no "string" before "name", so the variable "name" has already been declared
+### EXERCISE 4
 
-**7 - h **
+> The value of i will be 50, and the value of x will also be 50.
+
