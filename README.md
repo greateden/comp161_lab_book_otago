@@ -1,6 +1,9 @@
 # Otago Uni COMP161 Lab Book
 This is about the assignments listed in the Lab Book of COMP161 in the University of Otago. This book is mainly about JAVA programming.
 
+## CONTENTS
+- Chapter 1 [https://github.com/greateden/comp161_lab_book_otago#chapter-1]
+
 ## Chapter 1
 >  不积跬步，无以至千里。 --老子《道德经》
 >  
