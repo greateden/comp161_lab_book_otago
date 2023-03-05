@@ -57,6 +57,12 @@ compile no problem, but when running, there's no main methods.
 
 ### EXERCISE 2
 ```java
+/*
+Encoding: UTF-8
+Author: The Greatest Eden
+Date:1 MAR 2023
+Function: Show an address.
+*/
 public class Prog02{
        public static void main(String[ ] args){
               System.out.print("Ted Turner \n");
@@ -69,3 +75,47 @@ public class Prog02{
  Ted Turner66 Roundabout DriveDunedin 9011**
 
 ### EXERCISE 3
+```java
+/*
+Encoding: UTF-8
+Author: The Greatest Eden
+Date:1 MAR 2023
+Function: Show a fucking joke.
+*/
+
+public class Joke{
+       public static void main(String[ ] args){
+              System.out.println("Q. What did the pirate say on his 80th birthday?");
+              System.out.println("");
+              System.out.println("A. AYA MATEY!");
+       }
+}
+```
+
+### EXERCISE 4
+#### Correcting Errors 1
+```java
+/*
+There should also be with comments!!!!!!!!
+*/
+
+public class PracticeExample1_1{
+       public static void main(String[ ] args){
+              System.out.println("COMP161");
+              System.out.println("18 points");
+   }
+}
+```
+
+#### Correcting Errors 1
+```java
+/*
+blablabla
+*/
+public class PracticeExample2{
+       public static void main(String[ ] args){
+              char c = (char)67;
+              System.out.println(c);
+      }
+}
+```
