@@ -179,3 +179,57 @@ public class PracticeExample2{
 #### String's "s" should be "S"
 #### You can use `+= -= *= /=` in JAVA
 
+### EXERCISE 1
+
+In Java, there are three types of comments:
+
+Single-line comments (//):
+Single-line comments start with two forward slashes (//) and are used to explain a single line of code. Anything that follows the double slashes will be ignored by the compiler. These comments are generally used to provide short explanations of what the code is doing.
+Example:
+
+java
+Copy code
+// This is a single-line comment
+int x = 10; // This sets the value of x to 10
+Multi-line comments (/.../):
+Multi-line comments start with a forward slash followed by an asterisk (/) and end with an asterisk followed by a forward slash (/). These comments are used to explain a block of code or to temporarily disable a block of code. Anything between the opening and closing symbols will be ignored by the compiler.
+Example:
+
+java
+Copy code
+/*
+This is a multi-line comment
+It can span multiple lines
+*/
+
+int x = 10; /* This sets the value of x to 10 */
+Javadoc comments (/...*/):
+Javadoc comments start with a forward slash followed by two asterisks (/) and end with an asterisk followed by a forward slash (*/). These comments are used to generate documentation for classes, methods, and variables. Javadoc comments can include special tags like @param, @return, and @throws that are used by documentation generators to provide information about a program's API.
+Example:
+
+typescript
+Copy code
+/**
+* This class represents a person
+* @author John Smith
+*/
+public class Person {
+  private String name;
+
+  /**
+  * Sets the person's name
+  * @param name The person's name
+  */
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  /**
+  * Gets the person's name
+  * @return The person's name
+  */
+  public String getName() {
+    return name;
+  }
+}
+The key difference between these three types of comments is their purpose. Single-line and multi-line comments are used for code documentation and to make code more readable for developers. Javadoc comments, on the other hand, are used to generate API documentation that can be easily read by developers who are using your code.
