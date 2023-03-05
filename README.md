@@ -183,7 +183,8 @@ public class PracticeExample2{
 
 In Java, there are three types of comments:
 
-**Single-line comments (//):**
+**Single-line comment**
+
 Single-line comments start with two forward slashes (//) and are used to explain a single line of code. Anything that follows the double slashes will be ignored by the compiler. These comments are generally used to provide short explanations of what the code is doing.
 Example:
 ```java
@@ -191,7 +192,8 @@ Example:
 int x = 10; // This sets the value of x to 10
 ```
 
-**Multi-line comments (/* */):**
+**Multi-line comments**
+
 Multi-line comments start with a forward slash followed by an asterisk (/) and end with an asterisk followed by a forward slash (/). These comments are used to explain a block of code or to temporarily disable a block of code. Anything between the opening and closing symbols will be ignored by the compiler.
 Example:
 ```java
@@ -203,7 +205,8 @@ It can span multiple lines
 int x = 10; /* This sets the value of x to 10 */
 ```
 
-**Javadoc comments (/*/* */):**
+**Javadoc comments**
+
 Javadoc comments start with a forward slash followed by two asterisks (/) and end with an asterisk followed by a forward slash (*/). These comments are used to generate documentation for classes, methods, and variables. Javadoc comments can include special tags like @param, @return, and @throws that are used by documentation generators to provide information about a program's API.
 Example:
 ```java
@@ -233,3 +236,29 @@ public class Person {
 ```
 
 The key difference between these three types of comments is their purpose. Single-line and multi-line comments are used for code documentation and to make code more readable for developers. Javadoc comments, on the other hand, are used to generate API documentation that can be easily read by developers who are using your code.
+
+### EXERCISE 2
+
+**1 - c**
+
+The value 78.9 is a floating-point literal, but the variable x is of type int, which can only hold integer values. The (int) before 78.9 is a type cast operator, which forces the compiler to convert the floating-point value to an integer value before assigning it to x.
+After the cast, the fractional part of the value is truncated, and x will be assigned the integer value 78.
+
+**2 - e,f **
+
+**3 - a **
+
+Comparing a and b, a declared a variable with the 'int' but b didnt.
+
+**4 -g **
+
+The value 67 is cast to the char data type using the "(char)" syntax. The char data type in Java represents a single character, such as a letter, digit, or symbol, and can be initialized with either a Unicode value or a character literal enclosed in single quotes.
+In this case, the Unicode value 67 represents the character 'C', so the variable "c" will be assigned the value 'C'.
+
+**5 -d **
+
+**6 -b ** 
+
+no "string" before "name", so the variable "name" has already been declared
+
+**7 - h **
