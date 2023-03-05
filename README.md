@@ -174,3 +174,8 @@ public class PracticeExample2{
 | gin&tonic | N | "&" connot be used when naming | 
 | lowestBid$ | Y |  | 
 | this | Y |  | 
+
+#### Using “final" to initial value cannot be changed
+#### String's "s" should be "S"
+#### You can use `+= -= *= /=` in JAVA
+
