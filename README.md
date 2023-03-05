@@ -164,3 +164,13 @@ public class PracticeExample2{
 >
 >Avoid using underscores in names unless it is for constants or naming conventions in existing code.
 
+| Name | Valid? | Reason |
+| ------ | ------ | ----- |
+| Factorial | N | Start with capital | 
+| aReallyQuiteExtremelyLongName | Y | 
+| 3rdPlace | N | Start with digit | 
+| floor27 | Y |  | 
+| MAX_NUMBER | N | This is for consant not for variable | 
+| gin&tonic | N | "&" connot be used when naming | 
+| lowestBid$ | Y |  | 
+| this | Y |  | 
