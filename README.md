@@ -294,5 +294,37 @@ In this case, the Unicode value 67 represents the character 'C', so the variable
 
 **"\n" is shifting lines in JAVA, python, C++, etc.**
 
+### Coding Exercise 1
 
+> First number is 3.5
+> Second number is 12.0
+> Sum is 3.512.0
 
+**A1: Obviously, the answer is not we want as normal human.**
+
+So, we can fix it by changing the line 11 into this:\
+> System.out.println("Sum is " + (num1 + num2));
+
+**A2: ThreeNumbersApp.class**
+
+**A3: Please see the codes below, your highness:**\
+> ```java
+> /** Lab 2 COMP161 TwoNumbersApp.java
+> * The Greatest Eden November 2022 */
+> public class ThreeNumbersApp{
+>    public static void main (String[] args){
+>       double num1;//declaration, specifies data type and name
+>       double num2;
+>       int num3 = 1;
+>       num1 = 3.5; //assignment
+>       num2 = 12.0;
+>       double sum = num1 + num2 + num3;
+>       System.out.println("First number is " + num1);
+>       System.out.println("Second number is " + num2);
+>       System.out.println("Third number is " + num3);
+>       System.out.println("Sum is " + sum);
+>    }
+> }
+> ```
+
+### Coding Exercise 2
