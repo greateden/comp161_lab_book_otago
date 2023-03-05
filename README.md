@@ -1,13 +1,18 @@
 # Otago Uni COMP161 Lab Book
 This is about the assignments listed in the Lab Book of COMP161 in the University of Otago. This book is mainly about JAVA programming.
 
+
+
 ## CONTENTS
 - Chapter 1 [https://github.com/greateden/comp161_lab_book_otago#chapter-1]
+
+
 
 ## Chapter 1
 >  不积跬步，无以至千里。 --老子《道德经》
 >  
 >  A journey of a thousand miles starts with a single step. - Lao Tzu, Tao Te Ching
+
 
 ### EXERCISE 1
 ```
@@ -58,6 +63,7 @@ error i:
 compile no problem, but when running, there's no main methods.
 ```
 
+
 ### EXERCISE 2
 ```java
 /*
@@ -77,6 +83,7 @@ public class Prog02{
 **after changing:
  Ted Turner66 Roundabout DriveDunedin 9011**
 
+
 ### EXERCISE 3
 ```java
 /*
@@ -95,6 +102,7 @@ public class Joke{
 }
 ```
 
+
 ### EXERCISE 4
 #### Correcting Errors 1
 ```java
@@ -104,7 +112,7 @@ There should also be with comments!!!!!!!!
 
 public class PracticeExample1_1{
        public static void main(String[ ] args){
-              System.out.println("COMP161");
+              System.out.psrintln("COMP161");
               System.out.println("18 points");
    }
 }
@@ -122,3 +130,37 @@ public class PracticeExample2{
       }
 }
 ```
+
+
+
+## Chapter 2
+
+### Important notes
+
+#### Variable Naming Rules
+> Class names should begin with a capital letter and use camel case. \
+>`e.g. MyClassName`
+>
+> Variable and method names should begin with a lowercase letter and use camel case. \
+>`e.g. myVariableName`
+>
+> Constants should be in all uppercase letters with words separated by underscores. \
+>`e.g. MY_CONSTANT`
+>
+>Package names should be in all lowercase letters and use periods to separate words.\
+> `e.g. com.mycompany.mypackage`
+>
+>Method names should be verbs or verb phrases that describe the action they perform \
+> `e.g. getFirstName(), setLastName()`
+>
+>Boolean variables should be named with a prefix that indicates that they are booleans, such as "is" or "has" \
+> `e.g. isFinished, hasChildren`
+>
+>Use meaningful and descriptive names for variables, methods, and classes.
+>
+>Avoid using abbreviations unless they are well-known or widely used in the domain.
+>
+>Use proper spelling and grammar in naming, even for internal variables and methods.
+>
+>Avoid using underscores in names unless it is for constants or naming conventions in existing code.
+
