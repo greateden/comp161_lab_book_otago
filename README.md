@@ -5,6 +5,7 @@ This is about the assignments listed in the Lab Book of COMP161 in the Universit
 
 ## CONTENTS
 - Chapter 1 [https://github.com/greateden/comp161_lab_book_otago#chapter-1]
+- Chapter 2 [https://github.com/greateden/comp161_lab_book_otago#chapter-2]
 
 
 
@@ -358,6 +359,5 @@ So, we can fix it by changing the line 11 into this:\
 The output is:
 Each person pays $171.25 weekly for March 2022
 
-
-
-Eden. Last Edit: 16:36 NZDT, 5 MAR 2o23.
+## Mastery Test 1
+Download link []
