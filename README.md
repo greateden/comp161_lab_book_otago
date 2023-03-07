@@ -245,7 +245,7 @@ public class PracticeExample2{
 > >  The value 78.9 is a floating-point literal, but the variable x is of type int, which can only hold integer values. The (int) before 78.9 is a type cast operator, which forces the compiler to convert the floating-point value to an integer value before assigning it to x.
 After the cast, the fractional part of the value is truncated, and x will be assigned the integer value 78.
 > 
-> **2 - e,f**
+> **2 - f**
 > 
 > **3 - a**
 > 
@@ -263,6 +263,10 @@ In this case, the Unicode value 67 represents the character 'C', so the variable
 > > no "string" before "name", so the variable "name" has already been declared
 > 
 > **7 - h**
+>
+> **8 - e**
+> 
+> > The number that declared and initalized is an int, so we have to converse it to double, like 2.0
 
 ### EXERCISE 3
 
